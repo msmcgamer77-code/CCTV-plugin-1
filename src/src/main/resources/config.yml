@@ -1,0 +1,16 @@
+# CCTV Plugin Configuration
+
+# Radius (in blocks) within which a camera detects theft/activity
+detection-radius: 12
+
+# How often (in ticks) the camera "scans" nearby players for the live monitor (20 ticks = 1 second)
+scan-interval: 40
+
+# Alert staff (players with cctv.admin permission) in chat when theft is detected
+alert-staff: true
+
+# Play a sound to staff when theft is detected
+alert-sound: true
+
+# Max number of log lines kept per camera file before rotating to a new dated file
+max-log-lines: 5000
